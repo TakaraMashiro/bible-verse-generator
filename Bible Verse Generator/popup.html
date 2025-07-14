@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Bible Verse</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Coffee button in top right -->
+        <div class="coffee-button">
+            <a href="https://buymeacoffee.com/tinali4649" target="_blank" class="coffee-link">
+                <span class="coffee-icon">☕</span>
+                <span class="coffee-text">Buy me a coffee</span>
+            </a>
+        </div>
+        
+        <div class="header">
+            <h1>Daily Bible Verse</h1>
+            <div class="date" id="currentDate"></div>
+        </div>
+        
+        <div class="verse-container">
+            <div class="verse-reference" id="verseReference"></div>
+            <div class="verse-text" id="verseText"></div>
+        </div>
+        
+        <div class="footer">
+            <button id="shareBtn" class="share-btn">Share</button>
+            <button id="nextBtn" class="next-btn">Next Verse</button>
+        </div>
+    </div>
+    
+    <script src="verses.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html> 
